@@ -24,8 +24,7 @@
     "mocha-json": "./node_modules/.bin/mocha ./src/spec/mocha-specs/ --reporter json",
     "karma-spec": "ng test --config tutor-karma.conf.js --single-run",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "preinstall": "node dist/setup.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
